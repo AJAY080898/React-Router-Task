@@ -1,0 +1,28 @@
+#root {
+  max-width: 1580px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.custom-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.custom-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
