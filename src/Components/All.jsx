@@ -1,5 +1,5 @@
 import React from 'react';
-
+import image from '../assets/image.webp'
 function All() {
 
   const guviBlogIconUrl = "https://www.guvi.in/build/q-C-SntEbV.webp";
@@ -11,7 +11,7 @@ function All() {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img 
-              src="https://www.guvi.in/blog/wp-content/uploads/2023/05/image.png" 
+              src={image} 
               className="card-img-top" 
               alt="Python Objects 101: How to - Guvi Blog" 
             />
