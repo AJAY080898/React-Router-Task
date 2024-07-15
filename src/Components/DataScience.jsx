@@ -1,4 +1,5 @@
 import React from 'react';
+import image5 from '../assets/image5.webp'
 
 const DataScience = () => {
   return (
@@ -8,7 +9,7 @@ const DataScience = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2024/07/Data-Science-Life-Cycle.webp"
+              src={image10}
               className="card-img-top"
               alt="Data Science Life Cycle"
               style={{ height: '200px', objectFit: 'cover' }} 
@@ -17,7 +18,7 @@ const DataScience = () => {
               <h5 className="card-title">Data Science Life Cycle</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }}
@@ -40,7 +41,7 @@ const DataScience = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2024/07/What-is-Data-Science-Important-Factors-to-Learn-Before-Getting-Started.webp"
+              src={image11}
               className="card-img-top"
               alt="What is Data Science?"
               style={{ height: '200px', objectFit: 'cover' }} 
@@ -49,7 +50,7 @@ const DataScience = () => {
               <h5 className="card-title">What is Data Science?</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 
@@ -72,7 +73,7 @@ const DataScience = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2024/07/The-Relationship-Between-Data-Science-and-Artificial-Intelligence.webp"
+              src={image12}
               className="card-img-top"
               alt="The Relationship Between Data Science and Artificial Intelligence"
               style={{ height: '200px', objectFit: 'cover' }}/>
@@ -80,7 +81,7 @@ const DataScience = () => {
               <h5 className="card-title">The Relationship Between Data Science and Artificial Intelligence</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 

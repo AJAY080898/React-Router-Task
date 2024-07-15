@@ -2,7 +2,7 @@ import React from 'react';
 import image5 from '../assets/image5.webp'
 import image7 from '../assets/image7.webp'
 import image8 from '../assets/image8.webp'
-import image9 from '../assets/image9,webp'
+import image9 from '../assets/image9.webp'
 
 const CyberSecurity = () => {
   return (

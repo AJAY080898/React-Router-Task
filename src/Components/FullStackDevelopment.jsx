@@ -1,4 +1,9 @@
 import React from 'react';
+import image5 from '../assets/image5.webp'
+import image13 from '../assets/image13.webp'
+import image14 from '../assets/image14.jpg'
+import image15 from '../assets/image15.webp'
+
 
 const FullStackDevelopment = () => {
   const guviBlogIconUrl = 'https://www.guvi.in/blog/wp-content/uploads/guvi-blog-icon.png';
@@ -10,7 +15,7 @@ const FullStackDevelopment = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2022/06/4.-FSD-2048x1072.png"
+              src={image13}
               className="card-img-top"
               alt="Full Stack Development Project Ideas"
             />
@@ -18,7 +23,7 @@ const FullStackDevelopment = () => {
               <h5 className="card-title">Full Stack Development Project Ideas</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }}
@@ -41,7 +46,7 @@ const FullStackDevelopment = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2023/07/24746653_7002417-1-2048x1365.jpg"
+              src={image14}
               className="card-img-top"
               alt="Future Scope of Full Stack Developers in India"
             />
@@ -49,7 +54,7 @@ const FullStackDevelopment = () => {
               <h5 className="card-title">Future & Scope of Full-Stack Developers in India</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp" 
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 
@@ -72,7 +77,7 @@ const FullStackDevelopment = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2024/04/Feature-1.webp"
+              src={image15}
               className="card-img-top"
               alt="Secure Coding Practice in Full Stack Development"
             />
@@ -80,7 +85,7 @@ const FullStackDevelopment = () => {
               <h5 className="card-title">Secure Coding Practice in Full Stack Development</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp" 
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }}
