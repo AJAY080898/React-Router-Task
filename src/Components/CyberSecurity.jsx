@@ -1,4 +1,8 @@
 import React from 'react';
+import image5 from '../assets/image5.webp'
+import image7 from '../assets/image7.webp'
+import image8 from '../assets/image8.webp'
+import image9 from '../assets/image9,webp'
 
 const CyberSecurity = () => {
   return (
@@ -8,7 +12,7 @@ const CyberSecurity = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2020/11/cyber-security-e1614342903477.png"
+              src={image7}
               className="card-img-top"
               alt="Why Should You Learn Cyber Security?"
               style={{ height: '200px', objectFit: 'cover' }}
@@ -17,7 +21,7 @@ const CyberSecurity = () => {
               <h5 className="card-title">Why Should You Learn Cyber Security?</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }}
@@ -40,7 +44,7 @@ const CyberSecurity = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp"
+              src={image8}
               className="card-img-top"
               alt="Cybersecurity Jobs: The Ultimate Beginner's Guide with Roadmap"
               style={{ height: '200px', objectFit: 'cover' }} 
@@ -49,7 +53,7 @@ const CyberSecurity = () => {
               <h5 className="card-title">Cybersecurity Jobs: The Ultimate Beginner's Guide with Roadmap</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 
@@ -72,7 +76,7 @@ const CyberSecurity = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif"
+              src={image9}
               className="card-img-top"
               alt="Coding for Cybersecurity"
               style={{ height: '200px', objectFit: 'cover' }} 
@@ -81,7 +85,7 @@ const CyberSecurity = () => {
               <h5 className="card-title">Coding for Cybersecurity</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 
