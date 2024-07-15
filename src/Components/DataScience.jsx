@@ -1,5 +1,8 @@
 import React from 'react';
 import image5 from '../assets/image5.webp'
+import image10 from '../assets/image10.webp'
+import image11 from '../assets/image11.webp'
+import image12 from '../assets/image12.webp'
 
 const DataScience = () => {
   return (
