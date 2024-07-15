@@ -1,4 +1,8 @@
 import React from 'react';
+import image3 from '../assets/image3.jpg'
+import image4 from '../assets/image4.webp'
+import image5 from '../assets/image5.webp'
+import image6 from '../assets/image6.jpg'
 
 const Career = () => {
   return (
@@ -8,7 +12,7 @@ const Career = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2023/06/top-career-options-in-india.jpg"
+              src={image3}
               className="card-img-top"
               alt="Career Options in India"
               style={{ height: '200px', objectFit: 'cover' }}
@@ -17,7 +21,7 @@ const Career = () => {
               <h5 className="card-title">Career Options in India 2024</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 
@@ -40,7 +44,7 @@ const Career = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2024/01/Feature-image-Top-Technologies-to-Learn.webp"
+              src={image4}
               className="card-img-top"
               alt="Top Technologies to Learn Now"
               style={{ height: '200px', objectFit: 'cover' }} 
@@ -49,7 +53,7 @@ const Career = () => {
               <h5 className="card-title">Top Technologies to Learn Now</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 
@@ -72,7 +76,7 @@ const Career = () => {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img
-              src="https://www.guvi.in/blog/wp-content/uploads/2023/03/Top-Software-Engineering-Careers.jpg"
+              src={image6}
               className="card-img-top"
               alt="Best Software Engineering Career Options"
               style={{ height: '200px', objectFit: 'cover' }} 
@@ -81,7 +85,7 @@ const Career = () => {
               <h5 className="card-title">Best Software Engineering Career Options</h5>
               <div className="d-flex align-items-center mb-2">
                 <img 
-                  src="https://www.guvi.in/build/q-C-SntEbV.webp"
+                  src={image5}
                   alt="Guvi Blog Icon" 
                   className="rounded-circle me-2"
                   style={{ width: '30px', height: '30px' }} 

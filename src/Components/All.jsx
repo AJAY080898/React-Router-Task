@@ -1,5 +1,8 @@
 import React from 'react';
 import image from '../assets/image.webp'
+import image1 from '../assets/image1.jpeg'
+import image2 from '../assets/image2.png'
+
 function All() {
 
   const guviBlogIconUrl = "https://www.guvi.in/build/q-C-SntEbV.webp";
@@ -41,7 +44,7 @@ function All() {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img 
-              src="https://www.guvi.in/blog/wp-content/uploads/2023/05/image-15.png" 
+              src={image2}
               className="card-img-top" 
               alt="Machine Learning Must - Guvi Blog" 
             />
@@ -71,7 +74,7 @@ function All() {
         <div className="col-lg-4 col-md-6 mb-4">
           <div className="card custom-card h-100 border rounded bg-light">
             <img 
-              src="https://www.guvi.in/blog/wp-content/uploads/2023/06/casestudy-natural-language-processing-banner.jpeg" 
+              src={image1} 
               className="card-img-top" 
               alt="Unlocking the Power of NLP - Guvi Blog" 
             />
